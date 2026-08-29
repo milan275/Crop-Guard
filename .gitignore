@@ -1,0 +1,55 @@
+# Environment / secrets
+.env
+*.key
+secrets/
+*.pem
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+*.egg
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data (large files; keep processed summaries but not raw downloads)
+backend/data/raw/
+backend/data/processed/
+backend/data/models/*.h5
+backend/data/models/*.keras
+backend/data/models/*.pb
+backend/data/outputs/
+
+# SQLite database
+*.db
+*.sqlite3
+
+# Flutter
+flutter_app/.dart_tool/
+flutter_app/.flutter-plugins
+flutter_app/.flutter-plugins-dependencies
+flutter_app/build/
+flutter_app/.pub-cache/
+flutter_app/.pub/
+flutter_app/android/.gradle/
+flutter_app/android/local.properties
+flutter_app/ios/Pods/
+flutter_app/ios/.symlinks/
+flutter_app/macos/Pods/
+flutter_app/linux/flutter/ephemeral/
+flutter_app/windows/flutter/ephemeral/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+detailed_implementation_guide.md

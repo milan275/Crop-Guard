@@ -1,0 +1,59 @@
+name: cropguard_ai
+description: CropGuard AI — Satellite-based pest outbreak early warning for Punjab.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+  flutter: '>=3.19.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  # HTTP
+  http: ^1.2.1
+  dio: ^5.4.3
+
+  # Maps (free / open-source)
+  flutter_map: ^6.1.0
+  latlong2: ^0.9.1
+
+  # State management
+  provider: ^6.1.2
+  riverpod: ^2.5.1
+  flutter_riverpod: ^2.5.1
+
+  # Offline storage
+  shared_preferences: ^2.2.3
+  hive_flutter: ^1.1.0
+  hive: ^2.2.3
+
+  # UI
+  flutter_svg: ^2.0.10
+  cached_network_image: ^3.3.1
+  shimmer: ^3.0.0
+
+  # Form & validation
+  email_validator: ^2.1.17
+
+  # Utilities
+  intl: 0.20.2
+  connectivity_plus: ^6.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  hive_generator: ^2.0.1
+  build_runner: ^2.4.9
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+
+  generate: true
